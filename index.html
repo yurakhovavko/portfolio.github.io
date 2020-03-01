@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="row no-gutters">
+                <div class="col-lg-4 col-md-5">
+                    <div class="photo">
+                        <img src="/img/j8_tXDXMinU.jpg" class="raz" alt="loh" />
+                        <div><button class="resum p-1">
+                                <h3> <i class="fas fa-cloud"></i> Download Resume<h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-7">
+                    <div class="one">
+                        <div class="on">
+                            <h2 class="tex">Yura Khovavko</h2>
+                        </div>
+                        <div class="tw p-5"><i class="fab fa-vk fa-2x"></i></div>
+
+                        <div class="th p-5"><i class="fab fa-instagram fa-2x"></i></div>
+
+                        <div class="fo p-5"><i class="fab fa-discord fa-2x"></i></div>
+
+                        <div class="fi p-5"><i class="fab fa-github fa-2x"></i></div>
+                    </div>
+                    <div class="two ">
+                        <h1 class="te">Not Experienced Full Stack Web Developer</h1>
+                    </div>
+                    <div class="thr">
+                        <div class="d-flex flex-row text-white align-items-center text-center tested">
+                            <div class="bg-primary test text-center port-item" data-toggle="collapse"
+                                data-target="#home">
+                                <i class="fas fa-home fa-2x d-block"></i>
+                                <p>Home</p>
+                            </div>
+                            <div class="bg-success test port-item" data-toggle="collapse" data-target="#resume">
+                                <i class="fas fa-graduation-cap fa-2x d-block"></i>
+                                <p>Resume</p>
+                            </div>
+                            <div class="bg-warning test port-item" data-toggle="collapse" data-target="#work">
+                                <i class="fas fa-folder-open fa-2x d-block"></i>
+                                <p>Work</p>
+                            </div>
+                            <div class="bg-danger test port-item" data-toggle="collapse" data-target="#Contact">
+                                <i class="fas fa-envelope fa-2x d-block"></i>
+                                <p>Contact</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="home" class="collapse show">
+            <h1>Home</h1>
+        </div>
+        <div id="resume" class="resume collapse">
+            <h1>Resume</h1>
+        </div>
+        <div id="work" class="work collapse">
+            <h1>Work</h1>
+        </div>
+        <div id="Contact" class="contact collapse">
+            <h1>Contact</h1>
+        </div>
+    </div>
+    <footer>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script>
+        $('.port-item').click(function () {
+            $('.collapse').collapse('hide');
+        });
+    </script>
+</body>
+
+</html>
